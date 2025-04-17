@@ -28,7 +28,7 @@ namespace MyApp
         {
             Search s = new Search();
             int[] a = { 1, 23, 41, 50, 66, 78, 95 };
-            int found = s.BinarySearch(a, 7, 50);  // apenas passa o array e o número a buscar
+            int found = s.BinarySearch(a, 7, 50);  
             System.Console.WriteLine(found);
 
         }
